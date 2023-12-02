@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Section producto renderizados */
+.class-producto-renderizado{
+    margin: 100px 350px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.card-producto{
+    border: 1px solid black;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* Fin section productos renderizados*/
+/* Section filtrar producto por nombre */
+.class-filtrado-producto{
+    margin: 20px 10px;
+}
+/* Fin section filtrar producto por nombre */
+/*section ordenar por precio */
+.class-container-orden-precio{
+    margin: 25px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.boton-precio-ordenado{
+    margin-bottom: 15px;
+}
+/* Fin ordenar por precio */
+/* Section ordenar A-Z*/
+.section-container-orden-alfabeticamente{
+    margin: 25px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.btn-orden-alfabetico{
+    margin-bottom: 15px;
+}
+/* Fin section ordenar A-Z */

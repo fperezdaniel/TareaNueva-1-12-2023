@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Proyecto final-curso con david</title>
+</head>
+
+<body>
+    <main id="main-container" class="class-main-conatiner">
+
+        <!-- section filtrar producto por nombre -->
+        <div id="container-busqueda-producto" class="class-filtrado-producto">
+            <input id="input-producto-filtrado" type="text" placeholder="Ingrese nombre producto">
+            <button id="button-producto-filtrado">Buscar</button>
+            <!-- Fin section filtrar producto por nombre -->
+        </div>
+        <!-- Section orden de productos por precio A/D -->
+        <section class="class-container-orden-precio">
+            <button class="boton-precio-ordenado" data-id="ascendente">Ordenar precio ascendente</button>
+            <button class="boton-precio-ordenado" data-id="descendente">Ordenar precio desendente</button>
+        </section>
+        <!-- Fin section orden de productos por precio A/D -->
+        <!-- Section productos por orden alfabetico -->
+        <section class="section-container-orden-alfabeticamente">
+            <button class="btn-orden-alfabetico" data-id="a">Ordenar de la A-Z</button>
+            <button class="btn-orden-alfabetico" data-id="z">Ordenar de la Z-A</button>
+        </section>
+        <!-- Fin section producto oreden alfabetico -->
+        <!-- Section producto renderizado -->
+        <section id="section-container" class="class-producto-renderizado"></section>
+        <!-- Fin section producto renderizado -->
+    </main>
+
+    <script src="js/arrayProductos.js"></script>
+    <script src="js/classDeposito.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
