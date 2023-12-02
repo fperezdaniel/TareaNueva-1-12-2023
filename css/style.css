@@ -5,14 +5,17 @@
 }
 /* Section producto renderizados */
 .class-producto-renderizado{
-    margin: 100px 350px ;
+    padding: 0 400px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; 
 }
 .card-producto{
+    width: 200px;
+    height: 150px;
     border: 1px solid black;
+    border-radius: 7px;
     margin: 5px;
     display: flex;
     flex-direction: column;

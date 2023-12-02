@@ -105,7 +105,7 @@ const productos =  [
     },
     {
         categoria: "electronicos",
-        nombre: "parlante con bluetooth",
+        nombre: "parlante bluetooth",
         marca: "philco",
         codigo: "ADR1000",
         stock: 4,

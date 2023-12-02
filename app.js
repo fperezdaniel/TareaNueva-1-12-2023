@@ -1,6 +1,7 @@
 const objetoDeposito = new Deposito();
 /** Recordar comentar los console.log() al finalizar */
-
+console.log(objetoDeposito.deposito, " linea 3");
+objetoDeposito.renderizarProductos(objetoDeposito.deposito);
 /** Ordenar producto por precio */
 const ordenarPorPrecio = (e) => {
     let resultado;
